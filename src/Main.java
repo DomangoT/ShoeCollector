@@ -18,7 +18,7 @@ public class Main {
 
         boolean running = true;
 
-        while(running){
+        while(running){ //hi hello 
             System.out.println("\n--- Sneaker Collection Menu ---");
             System.out.printf("Money: $%.2f%n", myCollector.getMoney());
             System.out.println(
