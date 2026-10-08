@@ -26,7 +26,7 @@ public class Main {
             System.out.println("1) Buy a Sneaker");
             System.out.println("2) View Collection");
             System.out.println("3) Find a Sneaker");
-            System.out.println("4) Vieww Collection Report");
+            System.out.println("4) View Collection Report");
             System.out.println("5) Sell a Sneaker");
             System.out.println("6) Work (+$25)");
             System.out.println("7) View Store");

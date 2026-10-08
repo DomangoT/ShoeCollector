@@ -26,6 +26,12 @@ public class Collector {
         setMoney(money - price);
         return true;
     }
+    public void sortByResalePrice() {
+        collection.sort((a, b) ->
+                Double.compare(a.getResalePrice(), b.getResalePrice())
+        );
+        System.out.println("Sneakers sorted by resale price!");
+    }
     public boolean sellShoe(Sneaker shoe) {
         if (shoe == null || !collection.contains(shoe)) {
             return false;
